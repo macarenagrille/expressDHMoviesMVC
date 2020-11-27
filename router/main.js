@@ -6,4 +6,4 @@ router.get("/",mainController.index)
 router.get("/creditos",mainController.credits)
 router.get("*",mainController.error)
 
-module.exports = router
+module.exports = router 

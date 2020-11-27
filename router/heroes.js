@@ -7,8 +7,8 @@ const heroesRouter = require('../controllers/heroesController');
 
 router.get('/',heroesController.index);
 
-router.get('/:idHeroe', heroesController.detalle);
+router.get('/:detalle', heroesController.detalle);
 
-router.get('/heroes/bio/:id/:ok?', heroesController.bio);
+router.get('/bio/:id/:ok?', heroesController.bio);
 
 module.exports = router 
